@@ -441,6 +441,7 @@ class venc_dev
         bool enable_mv_narrow_searchrange;
         int supported_rc_modes;
         char m_platform[OMX_MAX_STRINGNAME_SIZE];
+        bool format_set;
 };
 
 enum instance_state {
